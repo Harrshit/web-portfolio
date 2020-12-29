@@ -20,12 +20,32 @@ align-items: center;
     align-self: center;
     box-shadow: blue 2px 5px 5px;
 }
+.button_class{
+    transition-duration: all 0.5s;
+    cursor: pointer;
+    box-shadow: crimson 1px 0.5px 0.5px 1px;
+    padding: 10px 5px 10px 5px;
+    align-self: center;
+    border-radius: 20px;
+    background-color:blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button_class:hover{
+    background-color: rgba(50, 50, 182, 0.87);
+}
+.button_class:active {
+    background-color: rgba(50, 50, 182, 0.87);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
 .linkedin_link{
     color: whitesmoke;
 }
 .projects_link{
     color: whitesmoke;
 }
+
 body{
     margin: 0px;
 }
