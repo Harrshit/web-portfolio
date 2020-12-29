@@ -1,0 +1,31 @@
+.site_header
+{
+background-color: black;
+color: whitesmoke;
+height: 100vh;
+font-family: monospace;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.site_header_content
+{
+  margin: 10px;  
+}
+.profile_pic{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    box-shadow: blue 2px 5px 5px;
+}
+.linkedin_link{
+    color: whitesmoke;
+}
+.projects_link{
+    color: whitesmoke;
+}
+body{
+    margin: 0px;
+}
